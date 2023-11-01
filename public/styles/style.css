@@ -1,0 +1,40 @@
+#tobey {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+}
+
+#andrew{
+    width: 230px;
+    height: 150px;
+    position: absolute;
+}
+
+#tom {
+    width: 160px;
+    height: 150px;
+    position: absolute;
+}
+
+#container{
+    padding-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    
+}
+ img {
+    display: block;
+ }
+ .foto{
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    border-left: 50px;
+    border-right: 50px;
+ }
+ .pieDeFoto{
+    position: absolute;
+    top: 13em
+ }
